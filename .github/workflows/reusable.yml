@@ -1,0 +1,8 @@
+name: Reusble Deploy
+on: workflow_call
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get build artifacts
+        run: echo "Deploying  & Uploading..."
